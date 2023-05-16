@@ -7,6 +7,7 @@
 
 if [ "$isFirstRun" == "true" ]
 then
+   mkdir /var/cache/samba
    if [ -z "$VAR_global_passdb_backend" ]
    then
       if [ -z "$VAR_global_smb_passwd_file" ]
