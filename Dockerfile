@@ -3,7 +3,7 @@
 # =========================================================================
 # ARGs (can be passed to Build/Final) <BEGIN>
 ARG SaM_REPO=${SaM_REPO:-ghcr.io/kristianstad/secure_and_minimal}
-ARG ALPINE_VERSION=${ALPINE_VERSION:-3.18}
+ARG ALPINE_VERSION=${ALPINE_VERSION:-3.20}
 ARG IMAGETYPE="application"
 ARG RUNDEPS="samba-server samba-common-tools libsmbclient"
 ARG MAKEFILES="/var/lib/samba/private/secrets.tdb"
