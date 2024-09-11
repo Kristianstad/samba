@@ -1,4 +1,4 @@
-# sam-samba
+# samba
 A secure and minimal docker image with Samba server (share) on Alpine edge. Runs as non-privileged user.
 
 ## Default internal container ports (expose externally as 445 if you wish)
